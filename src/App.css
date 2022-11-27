@@ -1,0 +1,42 @@
+body {
+    padding: 16px 150px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+
+  p a:first-child{
+    color: deeppink;
+    text-decoration: none;
+  }
+
+  p a:first-child:hover{
+    text-decoration: underline;
+  }
+
+  p a:not(:first-child){
+    color: black;
+  } 
+
+  p a:not(:first-child):hover{
+    text-decoration: none;
+  }
+  
+  /* We'll learn about this later on! */
+  aside p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  aside {
+    background: peachpuff;
+    border: 2px solid;
+    padding: 16px;
+  }
+
